@@ -499,7 +499,7 @@ footer {
  display: flex;
  list-style-type: none;
 }
-#cases > ul > ui{
+#cases > ul > li{
   width: 33%;
   margin: 20px;
 }
