@@ -495,18 +495,20 @@ footer {
   width: 100%;
 }
 /*課題内容：STEP5*/
-ul{
+#cases > ul{
  display: flex;
  list-style-type: none;
 }
-
+#cases > ul > ui{
+  width: 33%;
+  margin: 20px;
+}
 
 .case-card{
   background-color: #FFFFFF;
   min-height: 400px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-  width: 33%;
-  margin: 20px;
+  
 }
 .case-img{
   width: 100%;
